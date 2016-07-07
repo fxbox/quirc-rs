@@ -1,0 +1,19 @@
+[package]
+name = "quirc"
+version = "0.1.0"
+authors = ["Dave Hylands <dhylands@gmail.com>"]
+
+[dependencies]
+clippy = "0.0.78"
+libc = "0.2"
+mjpeg-sys = { path = "mjpeg-sys" }
+quirc-sys = { path = "quirc-sys" }
+
+[dev-dependencies]
+docopt = "0.6.81"
+docopt_macros = "0.6.85"
+rscam = "0.5.3"
+rustc-serialize = "0.3"
+sdl = "0.3.6"
+time = "0.1.35"
+
